@@ -150,13 +150,14 @@
 				<div class="address-wrapper">
 					<h3>联系方式</h3>
 					<div amt="animated fadeInDown delay-0-02"><a class="email" href="mailto:bd@huanxifin.com">联系邮箱：inbbb@inbbb.net</a></div>
-					<div amt="animated fadeInDown delay-0-5" class="qq-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2212523907&site=qq&menu=yes">QQ：53509758</a></div>
-					<div amt="animated fadeInDown delay-0-06" class="qq-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2212523907&site=qq&menu=yes">微信：inbbb88</a></div>
-					<div amt="animated fadeInDown delay-0-08">联系地址：深圳市宝安区众恒晟高新科技园</div>
+					<div amt="animated fadeInDown delay-0-5" class="qq-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=53509758&site=qq&menu=yes">QQ：53509758</a></div>
+					<div amt="animated fadeInDown delay-0-06" class="qq-num">微信：inbbb88</div>
+					<div amt="animated fadeInDown delay-0-08">联系地址：深圳市南山区科技园科苑路16号东方科技大厦28楼</div>
 				</div>
 			</div>
 			<div class="copy-right">
 				Copyright@盈贝头条 | 粤ICP备18137587号-1
+				<a target="_blank" href="https://v.yunaq.com/certificate?domain=www.inbbb.net&from=label&code=90020"><img  class ="cert-pic" src="https://aqyzmedia.yunaq.com/labels/label_sm_90020.png"></a >
 			</div>
 		</section>
 	</div>
@@ -209,7 +210,7 @@
 			}
 			function createMap() {
 				map = new BMap.Map("map");
-				map.centerAndZoom(new BMap.Point(113.869541,22.732273), 16);
+				map.centerAndZoom(new BMap.Point(113.952509,22.553605),19);
 			}
 			function setMapEvent() {
 				map.enableScrollWheelZoom();
@@ -224,7 +225,7 @@
 			}
 			function addMapOverlay() {
 				var markers = [
-					{ content: "深圳市宝安区众恒晟高新科技园", title: "众恒晟高新科技园", imageOffset: { width: 0, height: 3 }, position: { lat:22.732157,lng:113.869294 } }
+				{content:"深圳市南山区科技园科苑路16号东方科技大厦28楼",title:"东方科技大厦",imageOffset: {width:0,height:3},position:{lat:22.553572,lng:113.952482}}
 				];
 				for (var index = 0; index < markers.length; index++) {
 					var point = new BMap.Point(markers[index].position.lng, markers[index].position.lat);

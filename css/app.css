@@ -528,6 +528,11 @@ body{
     top: 50%;
     margin-top: -100px;
 }
+.cert-pic{
+    height: 19px;
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+}
 .copy-right {
     width: 100%;
     position: absolute;

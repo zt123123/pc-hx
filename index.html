@@ -149,8 +149,8 @@
 			<div class="container">
 				<div class="map-style" id="map"></div>
 				<div class="address-wrapper">
-					<div amt="animated fadeInDown delay-0-02"><a class="email" href="mailto:bd@huanxifin.com">盈贝头条开发公司：深圳爱陌网络科技有限公司</a></div>
-					<div amt="animated fadeInDown delay-0-02"><a class="email" href="mailto:bd@huanxifin.com">联系电话：4000-900-869</a></div>
+					<div amt="animated fadeInDown delay-0-02">盈贝头条开发公司：深圳爱陌网络科技有限公司</div>
+					<div amt="animated fadeInDown delay-0-02"><a class="email" href="tel:4000-900-869">联系电话：4000-900-869</a></div>
 					<div amt="animated fadeInDown delay-0-02"><a class="email" href="mailto:inbbb@inbbb.net">联系邮箱：inbbb@inbbb.net</a></div>
 					<div amt="animated fadeInDown delay-0-5" class="qq-num"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=53509758&site=qq&menu=yes">QQ：53509758</a></div>
 					<div amt="animated fadeInDown delay-0-06" class="qq-num">微信：inbbb88</div>
@@ -211,8 +211,8 @@
 				addMapOverlay();//向地图添加覆盖物
 			}
 			function createMap() {
-				map = new BMap.Map("map");
-				map.centerAndZoom(new BMap.Point(113.952509,22.553605),19);
+   map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(114.270692,22.725355),19);
 			}
 			function setMapEvent() {
 				map.enableScrollWheelZoom();
@@ -227,7 +227,7 @@
 			}
 			function addMapOverlay() {
 				var markers = [
-				{content:"深圳市南山区科技园科苑路16号东方科技大厦28楼",title:"东方科技大厦",imageOffset: {width:0,height:3},position:{lat:22.553572,lng:113.952482}}
+{content:"深圳市龙岗区街道南联社区远洋新干线君域花园5栋裙楼7层702",title:"远洋新干线君域花园5栋",imageOffset: {width:0,height:3},position:{lat:22.725226,lng:114.270212}}
 				];
 				for (var index = 0; index < markers.length; index++) {
 					var point = new BMap.Point(markers[index].position.lng, markers[index].position.lat);
